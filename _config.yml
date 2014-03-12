@@ -35,16 +35,16 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: home/
+    url: /home/
   - title: About
-    url: about/
+    url: /about/
   - title: Archive
-    url: articles/
+    url: /articles/
   - title: Github Gist
     url: "https://gist.github.com/jasonlvhit"
     external: true
   - title: Feeds
-    url: feeds/
+    url: /feeds/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Harbin
