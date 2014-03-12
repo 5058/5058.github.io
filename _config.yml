@@ -39,12 +39,12 @@ links:
   - title: About
     url: about/
   - title: Archive
-    url: posts/
-  - title: 5058 Gist
-  	url: "http://gist.github.com/5058"
-  	external: true
-  - title: Feed
-	  url: feed/
+    url: articles/
+  - title: Github Gist
+    url: "https://gist.github.com/jasonlvhit"
+    external: true
+  - title: Feeds
+    url: feeds/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Harbin
