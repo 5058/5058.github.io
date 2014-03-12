@@ -41,10 +41,10 @@ links:
   - title: Archive
     url: /articles/
   - title: Github Gist
-    url: "https://gist.github.com/jasonlvhit"
+    url: "https://gist.github.com/5058"
     external: true
   - title: Feeds
-    url: /feeds/
+    url: /feed/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Harbin
