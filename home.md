@@ -1,7 +1,8 @@
 ---
 layout: home
-description: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+permalink: /home/
+description: "Hello 5058"
+tags: [5058]
 image:
   feature: texture-feature-01.jpg
   credit: Texture Lovers
