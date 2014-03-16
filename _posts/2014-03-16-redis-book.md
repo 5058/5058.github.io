@@ -10,5 +10,6 @@ tags: [life, 5058]
 <br>
 注释代码地址：[redis 2.6 代码注释](https://github.com/huangz1990/annotated_redis_source)  
 <br>
+Redis 中文文档：[Redis 命令参考中文版](http://www.redisdoc.com/en/latest/)
 
 ##Hava Fun.
