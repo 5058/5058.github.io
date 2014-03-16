@@ -3,7 +3,7 @@ layout: post
 title: Redis 设计与实现
 description: "Redis 设计与实现, 附带一份含详细注释的redis 2.6源码"
 category: articles
-tags: [life, 5058]
+tags: [技术, Redis]
 ---
 
 图书地址：[Redis 设计与实现](http://www.redisbook.com)  
