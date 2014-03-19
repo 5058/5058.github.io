@@ -9,6 +9,6 @@ tags: [技术]
 
 
 <figure>
-	<a href="http://jasonlv.cn/images/1.jpg"><img src="http://jasonlv.cn/images/1.jpg"></a>
+	<a href="http://hit5058.com/images/1.jpg"><img src="http://hit5058.com/images/1.jpg"></a>
 	<figcaption></figcaption>
 </figure>
