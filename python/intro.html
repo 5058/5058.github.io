@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>intro</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="墙哥陪你写python">墙哥陪你写Python</h1>
+
+<hr>
+
+<h2 id="week-1-intro-工具基本环境">Week 1 ：Intro ，工具，基本环境</h2>
+
+<h3 id="week-1-task使用python编写拼音汉字转换脚本">Week 1 Task：使用Python编写拼音汉字转换脚本</h3>
+
+<p>墙哥会提供一个完整的拼音汉字对照字典，使用这个字典编写一个脚本，不会超过40行，实现拼音汉字转换。</p>
+
+<h3 id="intro-the-single-most-important-skill-for-a-computer-scientist-is-problem-solving">Intro ：The single most important skill for a computer scientist is problem solving.</h3>
+
+<p>墙哥假设您具有一般的C语言水平，和C++或Java语言基础。如果你觉得前面说到的这三种语言都还OK的话，墙哥相信您可以在半个月之内写出能够干点事情的Python代码。</p>
+
+<p>对<strong>Problem Solving</strong>来说，Python是一个利器。Python可以大大缩减编写程序的时间，对于程序员，创业公司，科学家，不，对于人类来说，最重要的是我们的时间。</p>
+
+<h4 id="为什么选择python因为python有-库-帮你做很多不必要的轮子">为什么选择Python，因为Python有  库 帮你做很多不必要的轮子</h4>
+
+<p>Python最强大的部分，是几乎只要你有需求，就会有前人实现过的代码，摆在那里，等着你用。</p>
+
+<h4 id="python主要解决哪些问题">Python主要解决哪些问题</h4>
+
+<ul>
+<li>数据挖掘，人工智能和机器学习。在自然语言处理上，Python拥有成熟的<a href="http://www.nltk.org/">NTLK</a>; Python拥有优秀的机器学习工具库<a href="http://scikit-learn.org/stable/">Scikit-Learn</a>;数学运算包<a href="http://www.numpy.org/">numpy</a></li>
+<li>Web。你可能在某些很叼的人嘴里听说过<a href="https://www.djangoproject.com/">Django</a>，或者什么东西。相对于Java Web，Python可以用1/2的代码量实现相同的事情。Web是可以最大程度解放Python性能诟病的地方（Web的性能瓶颈主要为IO）。在教程的后面部分，我们会从<a href="http://flask.pocoo.org/">Flask</a>入手，接触Python Web开发。当然这其中涉及的事情很多很杂，并且相对于PHP，学习曲线略陡。</li>
+<li>图像处理。</li>
+<li>大型网游游戏服务器。</li>
+</ul>
+
+<p>Python与前面三种语言相比 ，差别主要有以下几点：</p>
+
+<h4 id="弱类型">弱类型</h4>
+
+<p>在Python中，存在5大种基本的内置数据类型：<strong>数字</strong>, <strong>None</strong>,<strong>字典</strong>,<strong>序列</strong>,<strong>集合</strong>。没有整型，浮点型，单精度浮点型，双精度浮点型等等的差别。关于内置类型的详细内容和Python中怎样标记类型的内容我们在这一章中都会涉及到。</p>
+
+<h4 id="编译-orand-解释">编译 or/and 解释</h4>
+
+<p>C和C++是典型的编译型语言：编译器接受全部的程序源代码，编译为目标程序（二进制），目标程序在计算机上直接执行。与C不同的是，很多人将Python称为<strong>解释性</strong>语言，Python代码可以直接在解释器中执行。我更倾向于将Python称为一种<strong>半编译半解释型</strong>的语言，Python代码是会被编译为<strong>字节码</strong>(Byte Code)的, 字节码会在虚拟机中的一个函数来解释执行。除此之外，更直观的的编译过程存在于<strong>模块倒入</strong>，在我们 ‘import’ 一个Python文件a.py到另一个被执行的Python主文件中时，Python会将a.py编译为a.pyc，我们可以将其理解为a文件的字节码缓存文件，这会有效的提高程序效率，并实现复用。</p>
+
+<h4 id="everything-is-object">Everything is Object</h4>
+
+<p>我不会在刚开篇就去讲Python中的对象机制，以免吓跑了你。但让我们首先来先给<strong>Python中的对象</strong>一个定义：</p>
+
+<pre><code>对象：妹子或衰锅
+对象：一切可以赋值给变量或传入函数中的东西
+</code></pre>
+
+<p>台湾人管<strong>对象</strong>叫<strong>物件</strong>，你可以试试用台湾人的方式来叫你的对象，一定会有惊喜。记住后面那个对象的定义，也会有惊喜。</p>
+
+<h3 id="工具">工具</h3>
+
+<p>言归正传：</p>
+
+<p>请随便找一本Python入门书或者直接上官网下载对应系统的Python，2.7和3.3，或者使用Linux或Mac OS系统。</p>
+
+<p>这里先来介绍我们这些专业的程序员和玩数据的学习Python可能需要的工具：</p>
+
+<ul>
+<li>一个Linux发行版，早晚你会需要的</li>
+<li><a href="https://pypi.python.org/pypi/pip">pip</a> 和 <a href="https://pypi.python.org/pypi/setuptools">setuptool</a>(easy_install)</li>
+<li><a href="http://docs.python.org/2/library/pdb.html">PDB</a></li>
+<li><a href="https://pypi.python.org/pypi/virtualenv">VirtualEnv</a></li>
+</ul>
+
+<hr>
+
+<p>不管你专不专业，都需要的</p>
+
+<ul>
+<li>会Google</li>
+<li>会English</li>
+<li>会StackOverflow</li>
+<li>会泡妹子</li>
+</ul>
+
+<hr>
+
+<h4 id="入门">入门</h4>
+
+<p>熟读Python官方文档和写代码</p>
+
+<h4 id="进阶">进阶</h4>
+
+<p>写代码和熟读Python官方文档</p>
+
+<h4 id="进阶后进阶">进阶后进阶</h4>
+
+<p>写熟码和代官方档文读Python</p>
+
+<h4 id="一些资料">一些资料</h4>
+
+<p>推荐直接看英文文档。</p>
+
+<ul>
+<li><a href="http://woodpecker.org.cn/diveintopython3/index.html">深入Python 3</a></li>
+<li><a href="http://learnpythonthehardway.org/">Learn Python The Hard Way</a></li>
+<li><a href="http://www.fullstackpython.com/introduction.html">Full Stack Python</a></li>
+<li><a href="http://sebug.net/paper/python/">Python 简明教程</a></li>
+<li><a href="http://www.pythondoc.com/">Python 中文文档</a></li>
+</ul>
+
+<h4 id="交互式命令行模式和脚本模式">交互式命令行模式和脚本模式</h4>
+
+<p>请在任意一本Python入门资料中自行熟悉。</p>
+
+<p>关于Windows中将Python加入环境变量的内容请自行Google。</p>
+
+<hr>
+
+<p><a href="index.html">回到首页</a></p></div></body>
+</html>
