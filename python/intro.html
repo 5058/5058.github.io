@@ -1,13 +1,5 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>intro</title>
-<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
-<script type="text/javascript" src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
-</head>
-<body><div class="container"><h1 id="墙哥陪你写python">墙哥陪你写Python</h1>
+<h1 id="墙哥陪你写python">墙哥陪你写Python</h1>
 
 <hr>
 
@@ -101,6 +93,7 @@
 <p>推荐直接看英文文档。</p>
 
 <ul>
+<li><a href="http://woodpecker.org.cn/">啄木鸟社区</a></li>
 <li><a href="http://woodpecker.org.cn/diveintopython3/index.html">深入Python 3</a></li>
 <li><a href="http://learnpythonthehardway.org/">Learn Python The Hard Way</a></li>
 <li><a href="http://www.fullstackpython.com/introduction.html">Full Stack Python</a></li>
@@ -108,13 +101,42 @@
 <li><a href="http://www.pythondoc.com/">Python 中文文档</a></li>
 </ul>
 
+<p>在墙哥每一周的课程中，都会有一部分稍微深入的内容，所以这里给出Python的源代码地址：</p>
+
+<p><a href="http://hg.python.org/">Python 源代码</a></p>
+
 <h4 id="交互式命令行模式和脚本模式">交互式命令行模式和脚本模式</h4>
 
 <p>请在任意一本Python入门资料中自行熟悉。</p>
 
 <p>关于Windows中将Python加入环境变量的内容请自行Google。</p>
 
+<h4 id="ide">IDE</h4>
+
+<p>windows系统会自带一个IDLE，另外大家可以看一下pyCharm</p>
+
+<h4 id="python-shell中的一些必知函数">Python shell中的一些必知函数</h4>
+
+<p><strong>help</strong>: 顾名思义，查看帮助，在我们不知道一个函数是什么功能的时候，多用用help：</p>
+
+<pre><code>&gt;&gt;&gt; help(repr)
+Help on built-in function repr in model builtins
+repr(...)
+    repr(obj) -&gt; string...
+    ...
+    ...
+</code></pre>
+
+<p><strong>dir</strong>: 查看一个对象的所有属性，在了解一个新的类的时候尤其有用，可以看看这个类中都有什么函数等等。</p>
+
+<pre><code>&gt;&gt;&gt; dir(str)
+['__add__','__class__'.....]
+</code></pre>
+
+<h3 id="最后一点代码规范的要求">最后，一点代码规范的要求</h3>
+
+<p>虽然现在来看<a href="http://legacy.python.org/dev/peps/pep-0008/">PEP8</a>有一些为时甚早。但是，在编写Python代码，之前，先记住一点，用<strong>空格</strong>进行缩进，<strong>不要用tab</strong>。</p>
+
 <hr>
 
-<p><a href="index.html">回到首页</a></p></div></body>
-</html>
+<p><a href="index.html">回到首页</a></p>
